@@ -1,0 +1,106 @@
+.contenedor_header {
+    display: flex;
+    background-color: rgb(247, 174, 171);
+    padding: 50px;
+    padding-left: 90px;
+    align-items: center;
+    height: 150px;
+}
+
+.contenedor_header .barra-navegacion {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 550px;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 30px;
+
+}
+
+.contenedor_header .barra-navegacion a {
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor_header .barra-navegacion div {
+    transition: transform 0.3s;
+}
+
+.contenedor_header .barra-navegacion div:hover {
+    transform: scale(1.5);
+}
+
+
+.barra-navegacion div {
+    padding: 35px;
+
+}
+
+body {
+    margin: 0;
+}
+
+article {
+    margin-top: 40px;
+}
+
+.contenedor_main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenedor_main .contenido_main {
+    width: 70%;
+    margin: auto;
+
+}
+
+.contenedor_main .contenido_main h2 {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 60px;
+
+}
+
+.contenedor_main .contenido_main p {
+    font-family: 'Caveat', cursive;
+    font-size: 19px;
+}
+
+.contenedor_wiki {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor_wiki .txt_inter {
+    padding-top: 40px;
+    width: 70%;
+    font-family: 'Caveat', cursive;
+    font-size: 19px;
+}
+
+.contenedor_wiki .patros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+
+.contenedor_wiki .patros .patro_uno .desc_patro_uno {
+    padding-top: 30px;
+
+}
+
+.contenedor_wiki .patros .patro_dos {
+    padding-top: 50px;
+
+}
+
+.contenedor_wiki .patros .patro_dos .desc_patro_dos {
+    padding-top: 30px;
+}

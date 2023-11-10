@@ -1,0 +1,93 @@
+.contenedor_header {
+    display: flex;
+    background-color: rgb(247, 174, 171);
+    padding: 50px;
+    padding-left: 90px;
+    align-items: center;
+    height: 150px;
+}
+
+.contenedor_header .barra-navegacion {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 550px;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 30px;
+
+}
+
+.contenedor_header .barra-navegacion a {
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor_header .barra-navegacion div {
+    transition: transform 0.3s;
+}
+
+.contenedor_header .barra-navegacion div:hover {
+    transform: scale(1.5);
+}
+
+
+.barra-navegacion div {
+    padding: 35px;
+
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 0;
+    text-align: left;
+}
+
+.recetas {
+    margin-left: 80px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.recetas .contenedor_receta_info {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.recetas .contenedor_receta_info .receta_info h2 {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 48px;
+}
+
+.recetas .contenedor_receta_info .receta_info h3 {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 32px;
+}
+
+.recetas .contenedor_receta_info .receta_info li {
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+
+.recetas .contenedor_receta_info .receta_info p {
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+
+.recetas .contenedor_receta_info .receta_info {
+    width: 75%;
+}
+
+footer {
+    margin: 0px;
+
+}
